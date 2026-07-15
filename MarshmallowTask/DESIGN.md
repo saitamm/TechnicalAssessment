@@ -1,6 +1,7 @@
 Repository:
 marshmallow-code/marshmallow
 
+
 Base commit:
 
 b40a0f4e33823e6d0f341f7e8684e359a99060d1
@@ -25,6 +26,17 @@ Success:
 All tests pass (911 tests passing).
 
 ## Build
+``` 
+ git clone https://github.com/marshmallow-code/marshmallow.git
+ ```
+```
+cd repository
+```
+
+```
+git checkout b40a0f4e33823e6d0f341f7e8684e359a99060d1
+cd ..
+```
 
 ```bash
 docker build -t MarshmallowTask .
